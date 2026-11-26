@@ -1,0 +1,7 @@
+numpy>=1.24
+Pillow>=10.0
+# citirea textului (pot, stack-uri, nume) de pe ecran; necesita si binarul Tesseract
+# (Windows: winget install --id UB-Mannheim.TesseractOCR -e); fara el watcher-ul citeste doar cartile
+pytesseract>=0.3.10
+# pentru teste
+pytest>=7
